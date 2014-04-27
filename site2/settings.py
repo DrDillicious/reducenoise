@@ -56,7 +56,7 @@ WSGI_APPLICATION = 'site2.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -64,6 +64,18 @@ DATABASES = {
         'USER': 'Rob',
         'PASSWORD': 'headlines',
         'HOST': ''
+    }
+}
+"""
+# postgres://houszlwjytmnoh:aYw6bCkFRd_5oBZIeTxNfpI02v@ec2-107-22-190-179.compute-1.amazonaws.com:5432/de6h4ue1a5n1n
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'de6h4ue1a5n1n',
+        'USER': 'houszlwjytmnoh',
+        'PASSWORD': 'aYw6bCkFRd_5oBZIeTxNfpI02v',
+        'HOST': 'ec2-107-22-190-179.compute-1.amazonaws.com'
+        'PORT': '5432'
     }
 }
 

@@ -25,6 +25,7 @@ Building this started with my interest in web scrapers and hearing Django tossed
 As many projects do, I started the scraper with a Google search for python scraper tutorials. There were three that really allowed me to get familiar with the process.
 
 1. [Scrape the Gibson: Python skills for data scrapers](http://brianabelson.com/open-news/2013/12/17/scrape-the-gibson.html)
+
 2. [Python Recipe: Grab page, scrape table, download file - Palewire](http://palewi.re/posts/2008/04/20/python-recipe-grab-a-page-scrape-a-table-download-a-file/)
 
 Getting the scraper to work taught me a lot about the syntax and requirments of python. Out of the box I learned about installing and importing various libraries. The print function became my friend real quick and I got familiar with python's data types. I wrote two or three different working versions of the scraper with different methods, trying to get as efficient as possible, but it's a long way from perfect.

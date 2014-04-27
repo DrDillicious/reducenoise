@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>
+                {% block head %}{% endblock %}
+            </title>
+            <style>
+                body{
+                    background-color: #fdfdfd;
+                    color: #2e2e2e;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 1em;
+                    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                }
+                div.content{
+                    border: 1px solid #fbfbfb;
+                    background-color: #fff;
+                    max-width: 1200px;
+                    width: 96%;
+                    padding: 2%;
+                    margin: auto;
+                }
+            </style>
+            </head>
+        <body>
+            <div class="content">
+                {% block name %}
+                {% endblock %}
+            </div>
+        </body>
+    </html>

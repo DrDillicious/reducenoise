@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+     
+    {% block head %}{{post.day}} - {{post.name}}{% endblock %}
+     
+    {% block name %}
+    <article>
+        <header>
+            <h1>{{post.name}}</h1>
+            <h3>{{post.day}}</h3>
+        </header>
+        <article>
+            <p class="description">
+                <p><a href="{{post.link}}">{{post.head}}</a></p>
+            </p>
+        </article>
+    {% endblock %}

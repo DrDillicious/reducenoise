@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+     
+     
+    {% block head %} Headline Archive {% endblock %}
+     
+    {% block name %}
+        <h1> Headline Archive </h1>
+        {% for post in posts %}
+        <div class="post">
+            <h2>
+                <a href="{{post.get_absolute_url}}">
+                    {{post.head}}
+                </a>
+            </h2>
+            <p>{{post.name}}</p>
+            <p>Posted on: {{post.day}}</p>
+            <p> ––– </p>
+        </div>
+        {% endfor %}
+    {% endblock %}

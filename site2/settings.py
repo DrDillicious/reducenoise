@@ -49,7 +49,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'site2.urls'
+#ROOT_URLCONF = 'site2.urls'
 
 WSGI_APPLICATION = 'site2.wsgi.application'
 
@@ -84,7 +84,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_URL = '/static/'
+#STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (
         'site2/templates',

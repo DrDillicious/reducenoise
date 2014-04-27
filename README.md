@@ -38,7 +38,7 @@ Once that wrote to a sqlite db properly I focused on getting familiar with Djang
 
 1.[Netmag -- Get started with Django](http://www.creativebloq.com/netmag/get-started-django-7132932)
 
-2. [Django basics - Installing Django and Setting up a project and app](http://mherman.org/blog/2012/12/30/django-basics/#.U106W61dWiq)
+2.[Django basics - Installing Django and Setting up a project and app](http://mherman.org/blog/2012/12/30/django-basics/#.U106W61dWiq)
 
 Working with Django I quickly learned about Model-View-Controller. I also quickly became familiar with designing using templates and Django's local server functionality.
 

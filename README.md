@@ -25,7 +25,6 @@ Building this started with my interest in web scrapers and hearing Django tossed
 As many projects do, I started the scraper with a Google search for python scraper tutorials. There were three that really allowed me to get familiar with the process.
 
 1. [Scrape the Gibson: Python skills for data scrapers](http://brianabelson.com/open-news/2013/12/17/scrape-the-gibson.html)
-
 2. [Python Recipe: Grab page, scrape table, download file - Palewire](http://palewi.re/posts/2008/04/20/python-recipe-grab-a-page-scrape-a-table-download-a-file/)
 
 Getting the scraper to work taught me a lot about the syntax and requirments of python. Out of the box I learned about installing and importing various libraries. The print function became my friend real quick and I got familiar with python's data types. I wrote two or three different working versions of the scraper with different methods, trying to get as efficient as possible, but it's a long way from perfect.
@@ -37,7 +36,6 @@ I used a dictionary to write into the sqlite db.
 Once that wrote to a sqlite db properly I focused on getting familiar with Django. Here too, I started with online tutorials. The 'Netmag' tutorial was especially helpful in creating a blogroll from a sqlite db. These other resources were helpful as well:
 
 1.[Netmag -- Get started with Django](http://www.creativebloq.com/netmag/get-started-django-7132932)
-
 2. [Django basics - Installing Django and Setting up a project and app](http://mherman.org/blog/2012/12/30/django-basics/#.U106W61dWiq)
 
 Working with Django I quickly learned about Model-View-Controller. I also quickly became familiar with designing using templates and Django's local server functionality.
